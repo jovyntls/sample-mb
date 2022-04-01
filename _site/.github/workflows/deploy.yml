@@ -1,0 +1,15 @@
+name: MarkBind Action
+
+on:
+  push:
+    branches:
+      - master
+
+jobs: 
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build & Deploy MarkBind site
+        uses: MarkBind/markbind-action@release/v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
