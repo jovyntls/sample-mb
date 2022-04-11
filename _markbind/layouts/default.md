@@ -16,6 +16,30 @@
         <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
       </form>
     </li>
+    <dropdown header="Topic 3" class="nav-link">
+      <li><a href="{{baseUrl}}/contents/topic3a.html" class="dropdown-item">Topic 3c</a></li>
+      <li><a href="{{baseUrl}}/contents/topic3b.html" class="dropdown-item">Topic 3d</a></li>
+      <dropdown header="Topic 3" class="nav-link">
+        <li><a href="{{baseUrl}}/contents/topic3a.html" class="dropdown-item">Topic 3c</a></li>
+        <li><a href="{{baseUrl}}/contents/topic3b.html" class="dropdown-item">Topic 3d</a></li>
+        <dropdown header="Topic 3" class="nav-link">
+          <li><a href="{{baseUrl}}/contents/topic3a.html" class="dropdown-item">Topic 3c</a></li>
+          <li><a href="{{baseUrl}}/contents/topic3b.html" class="dropdown-item">Topic 3d</a></li>
+          <dropdown header="Topic 3" class="nav-link">
+            <li><a href="{{baseUrl}}/contents/topic3a.html" class="dropdown-item">Topic 3ccccccccc</a></li>
+            <li><a href="{{baseUrl}}/contents/topic3b.html" class="dropdown-item">Topic 3d</a></li>
+            <dropdown header="Topic 3" class="nav-link">
+              <li><a href="{{baseUrl}}/contents/topic3a.html" class="dropdown-item">Topic 3cccccccccccccccccccccccs</a></li>
+              <li><a href="{{baseUrl}}/contents/topic3b.html" class="dropdown-item">Topic 3d</a></li>
+              <dropdown header="Topic 3" class="nav-link">
+                <li><a href="{{baseUrl}}/contents/topic3a.html" class="dropdown-item">Topic 3ccccccccc</a></li>
+                <li><a href="{{baseUrl}}/contents/topic3b.html" class="dropdown-item">Topic 3d</a></li>
+              </dropdown>
+            </dropdown>
+          </dropdown>
+        </dropdown>
+      </dropdown>
+    </dropdown>
   </navbar>
 </header>
 
