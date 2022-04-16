@@ -13,7 +13,7 @@
   </div>
 </div>
 
-New addition
+![MarkBind Architecture Diagram](<{{baseUrl}}/images/Architecture.png>)
 
 # Heading 1
 Some text some text some text some text some text some text some text. **Some text some text some text some text some text ==some text== some text**. Some text some text some text some text some text some text some text some text some text some text some text some text some text some text. Some text some text some text some text some text some text. Some text some text some text some text some text some text some text.
